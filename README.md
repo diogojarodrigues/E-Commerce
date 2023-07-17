@@ -32,9 +32,9 @@ $ psql -h postgres -U postgres
 Use the password "postgres" when prompted.
 
 ```sql
-\i work/delivery-3/schema.sql
-\i work/delivery-3/populate.sql
-\i work/delivery-3/ICs.sql
+\i database/schema.sql
+\i database/populate.sql
+\i database/ICs.sql
 \q
 ```  
 

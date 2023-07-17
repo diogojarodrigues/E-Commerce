@@ -42,7 +42,7 @@ services:
     restart: always
     volumes:
       - ./app:/home/jovyan/app
-      - ./work:/home/jovyan/work
+      - ./database:/home/jovyan/database
     depends_on:
       - postgres
     ports:
